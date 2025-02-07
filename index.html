@@ -1,23 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ImpressPlay - Game Studio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImpressPlay - Game Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #86c5da; /* pastel blue */
+            margin: 0;
+        }
+        h2 {
+            color: #707070; /* gray */
+            margin: 10px 0 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #86c5da; /* pastel blue */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #7ab6cc;
+        }
+        footer {
+            margin-top: auto;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            padding: 10px 0;
+        }
+        @media (max-width: 600px) {
+            body {
+                height: auto;
+                padding: 20px;
+            }
+            .container {
+                padding: 20px 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to ImpressPlay</h1>
-      <p>Where creativity meets innovation in the world of gaming.</p>
-      <a href="#" class="btn">Discover More</a>
-    </div>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 ImpressPlay Studios. All Rights Reserved.</p>
-  </footer>
+<div class="container">
+    <h1>ImpressPlay</h1>
+    <h2>Game Studio</h2>
+    <a href="https://impressplay.eu" class="cta-button" target="_blank">Get in Touch</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 ImpressPlay. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
