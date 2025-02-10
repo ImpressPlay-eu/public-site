@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background-image {
+    background: url('canvas.jpg') no-repeat center center/cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+    }
+}
